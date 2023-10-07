@@ -1,11 +1,6 @@
-import  { Component } from 'react'
 
-export class Profile extends Component {
-  render() {
-    return (
-      <div>Profile</div>
-    )
-  }
+export default function Profile() {
+  return (
+    <div>Profile</div>
+  )
 }
-
-export default Profile
